@@ -1,0 +1,11 @@
+#test1
+print("How old are you? In arabic numerals only")
+age = int(input("Age: "))
+print("Are you married? Type 1 if married, Type 2 if not")
+number = int(input("Number: "))
+if age >= 20:
+    print("Of legal age")
+elif number == "1"
+    print("Of legal age")
+else:
+    print("Not of legal age")

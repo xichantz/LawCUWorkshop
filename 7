@@ -1,0 +1,31 @@
+#B3
+
+pn = input("Phone number here xxx-xxx-xxxx")
+sum1 = 0
+for i in pn :
+    if i.isnumeric() :
+        sum1 += int(i)
+print(sum1)
+
+#B4
+
+
+pn2 = input("Second phone number here xxx-xxx-xxxx")
+sum2 = 0
+for i in pn2 :
+    if i.isnumeric() :
+        sum2 += int(i)
+print(sum2)
+
+if sum1 == 60 and sum2 == 60:
+    print("Equally inauspicious")
+elif sum1 == 60:
+    print("2 is more auspicious")
+elif sum2 == 60:
+    print("1 is more auspicious")
+elif sum1 > sum2:
+    print("1 is more auspicious")
+elif sum2 > sum1:
+    print("2 is more auspicious")
+else:
+    print("Equally auspicious")

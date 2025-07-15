@@ -1,0 +1,16 @@
+#B1
+Max = 0
+total = 0
+count = 0
+for i in range(7):
+    money = float(input("Enter amount: "))
+    total += money
+    count += 1
+   
+
+    if float(money) > float(Max):
+        Max = money
+        
+avg = total / count
+print(avg)
+print(("The max amount you used is ") + str(Max))

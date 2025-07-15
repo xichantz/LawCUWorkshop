@@ -1,0 +1,15 @@
+#A2
+byear = int(input("What year? in Buddhist calendar years"))
+cyear = byear - 543
+if cyear % 4 == int("0"):
+    if cyear % 100 == int("0"):
+
+        if cyear % 400 == int("0"):
+            print("Leap year")
+        else:
+            print("Not a leap year")
+    else:
+        print("Leap year")
+    
+else:
+    print("Not a leap year")
